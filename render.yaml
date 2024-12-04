@@ -9,3 +9,4 @@ services:
     envVars:
       - key: STREAMLIT_SERVER_PORT
         value: "8501"
+    pythonVersion: "3.10"
