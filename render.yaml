@@ -3,10 +3,13 @@ services:
     name: sentiment-analyzer-app
     env: python
     plan: starter
-    buildCommand: pip install -r requirements.txt
+    buildCommand:
+      pip install --upgrade pip
+      pip install -r requirements.txt
+
     startCommand: streamlit run main.py
     # You can customize the port if needed, otherwise Render automatically uses port 1000
     envVars:
       - key: STREAMLIT_SERVER_PORT
         value: "8501"
-    pythonVersion: "3.9"
+    pythonVersion: "3.10"
