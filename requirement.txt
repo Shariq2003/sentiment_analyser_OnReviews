@@ -65,6 +65,7 @@ tqdm==4.64.1
 typing_extensions==4.3.0
 tzdata==2022.4
 tzlocal==4.2
+textblob
 urllib3==1.26.12
 validators==0.20.0
 watchdog==2.1.9
