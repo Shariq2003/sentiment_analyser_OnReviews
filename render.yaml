@@ -6,7 +6,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run main.py
     # You can customize the port if needed, otherwise Render automatically uses port 10000
-    port: 10000
+    port: 8501
     envVars:
       - key: STREAMLIT_SERVER_PORT
-        value: "10000"
+        value: "8501"
